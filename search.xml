@@ -46,6 +46,8 @@
 <p>不务正业工程师 <a href="https://zhangzhao.name" target="_blank" rel="noopener">https://zhangzhao.name</a></p>
 <p>23 人赞同了该回答</p>
 <p>可以更新使用最新的 hexo-deployer-git 插件，因为没有发布到 npm 的原因，必须得从 github 安装</p>
+<a id="more"></a>
+
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line">npm install git+git@github.com:hexojs/hexo-deployer-git.git --save</span><br></pre></td></tr></table></figure>
 
 <p>在项目根目录下的 _config.yml 里面就可以这样配置</p>
