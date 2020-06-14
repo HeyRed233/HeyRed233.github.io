@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-07T08:00:53.223Z</updated>
+  <updated>2020-06-14T07:06:52.958Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>晴天指弹改编</title>
+    <link href="http://yoursite.com/2020/06/14/Music%20Video%20%E6%99%B4%E5%A4%A9%E6%8C%87%E5%BC%B9%E6%94%B9%E7%BC%96/"/>
+    <id>http://yoursite.com/2020/06/14/Music%20Video%20%E6%99%B4%E5%A4%A9%E6%8C%87%E5%BC%B9%E6%94%B9%E7%BC%96/</id>
+    <published>2020-06-14T05:49:40.000Z</published>
+    <updated>2020-06-14T07:06:52.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>哇，人家好棒哇！</p><a id="more"></a><h1 id="bilibili"><a href="#bilibili" class="headerlink" title="bilibili"></a>bilibili</h1><iframe src="//player.bilibili.com/player.html?aid=88711867&bvid=BV1Q741137bZ&cid=151539352&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哇，人家好棒哇！&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Music Video" scheme="http://yoursite.com/tags/Music-Video/"/>
+    
+      <category term="指弹" scheme="http://yoursite.com/tags/%E6%8C%87%E5%BC%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>花に亡霊 —— ヨルシカ</title>
