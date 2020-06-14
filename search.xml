@@ -1,6 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Music Video 2019华晨宇火星演唱会（高清版）-【好想爱这个世界啊】</title>
+    <url>/2020/06/07/Music%20Video%202019%E5%8D%8E%E6%99%A8%E5%AE%87%E7%81%AB%E6%98%9F%E6%BC%94%E5%94%B1%E4%BC%9A%EF%BC%88%E9%AB%98%E6%B8%85%E7%89%88%EF%BC%89-%E3%80%90%E5%A5%BD%E6%83%B3%E7%88%B1%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E5%95%8A%E3%80%91/</url>
+    <content><![CDATA[<p>展开</p>
+<a id="more"></a>
+
+<h1 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/K_E5pzBrAKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<h1 id="哔哩哔哩bilibili"><a href="#哔哩哔哩bilibili" class="headerlink" title="哔哩哔哩bilibili"></a>哔哩哔哩bilibili</h1><iframe src="//player.bilibili.com/player.html?aid=75965449&bvid=BV1gJ411S7Zg&cid=129947033&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <tags>
+        <tag>Music Video</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>花に亡霊 —— ヨルシカ</title>
+    <url>/2020/06/07/Music%20Video%20%E8%8A%B1%E3%81%AB%E4%BA%A1%E9%9C%8A%20%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB/</url>
+    <content><![CDATA[<h1 id="Yesterday，noon"><a href="#Yesterday，noon" class="headerlink" title="Yesterday，noon"></a>Yesterday，noon</h1><a id="more"></a>
+
+<h2 id="Her"><a href="#Her" class="headerlink" title="Her"></a>Her</h2><iframe src="//player.bilibili.com/player.html?aid=285290998&cid=181798625&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <tags>
+        <tag>Music Video</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>备份Blog(自己学习用)</title>
+    <url>/2020/06/07/%E5%A4%87%E4%BB%BDBlog(%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0%E7%94%A8)/</url>
+    <content><![CDATA[<p><a href="https://www.zhihu.com/people/zhangzhao77" target="_blank" rel="noopener"><img src="https://pic2.zhimg.com/v2-62d3549cccbf497aa4a69d8239439110_xs.jpg" alt="张钊"></a></p>
+<p><a href="https://www.zhihu.com/people/zhangzhao77" target="_blank" rel="noopener">张钊</a></p>
+<p>不务正业工程师 <a href="https://zhangzhao.name" target="_blank" rel="noopener">https://zhangzhao.name</a></p>
+<p>23 人赞同了该回答</p>
+<p>可以更新使用最新的 hexo-deployer-git 插件，因为没有发布到 npm 的原因，必须得从 github 安装</p>
+<a id="more"></a>
+
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">npm install git+git@github.com:hexojs/hexo-deployer-git.git --save</span><br></pre></td></tr></table></figure>
+
+<p>在项目根目录下的 _config.yml 里面就可以这样配置</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yaml</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type: gitrepo:</span> <span class="string">git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">src</span></span><br><span class="line">    <span class="attr">extend_dirs:</span> <span class="string">/</span></span><br><span class="line">    <span class="attr">ignore_hidden:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">ignore_pattern:</span></span><br><span class="line">        <span class="attr">public:</span> <span class="string">.</span></span><br></pre></td></tr></table></figure>
+
+<p>这样，在每次写完博客的时候时候使用 hexo d 命令就能将所有其他文件发布到 src 分支换电脑的时候就能通过 git 重新下载下来整个项目，然后本地切换到远端的 src 分支</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git checkout origin&#x2F;src</span><br></pre></td></tr></table></figure>
+
+<p>就能重新获得所有的源文件，就能重新 hexo d 发布对于每一个从 git 下载下来的项目或者主题，最好把每个的 .git 文件夹删掉，否则得通过 submodule 的方式来安装。</p>
+<p><a href="https://www.zhihu.com/question/21193762/answer/172097576" target="_blank" rel="noopener">发布于 2017-05-20</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <url>/2020/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><p>balabala</p>
+<p>——————</p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第二篇测试文章</title>
     <url>/2020/04/21/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<h2 id="balabalabalabalabal"><a href="#balabalabalabalabal" class="headerlink" title="balabalabalabalabal"></a>b<a id="more"></a>alabalabalabalabal</h2><h2 id="段落二"><a href="#段落二" class="headerlink" title="段落二"></a>段落二</h2><h1 id="段落三"><a href="#段落三" class="headerlink" title="段落三"></a>段落三</h1>]]></content>
@@ -27,62 +84,5 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/2020/04/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
-    <content><![CDATA[<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><p>balabala</p>
-<p>——————</p>
-]]></content>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>备份Blog(自己学习用)</title>
-    <url>/2020/06/07/%E5%A4%87%E4%BB%BDBlog(%E8%87%AA%E5%B7%B1%E5%AD%A6%E4%B9%A0%E7%94%A8)/</url>
-    <content><![CDATA[<p><a href="https://www.zhihu.com/people/zhangzhao77" target="_blank" rel="noopener"><img src="https://pic2.zhimg.com/v2-62d3549cccbf497aa4a69d8239439110_xs.jpg" alt="张钊"></a></p>
-<p><a href="https://www.zhihu.com/people/zhangzhao77" target="_blank" rel="noopener">张钊</a></p>
-<p>不务正业工程师 <a href="https://zhangzhao.name" target="_blank" rel="noopener">https://zhangzhao.name</a></p>
-<p>23 人赞同了该回答</p>
-<p>可以更新使用最新的 hexo-deployer-git 插件，因为没有发布到 npm 的原因，必须得从 github 安装</p>
-<a id="more"></a>
-
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">npm install git+git@github.com:hexojs/hexo-deployer-git.git --save</span><br></pre></td></tr></table></figure>
-
-<p>在项目根目录下的 _config.yml 里面就可以这样配置</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># _config.yaml</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type: gitrepo:</span> <span class="string">git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">master</span></span><br><span class="line">  <span class="bullet">-</span> <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">    <span class="attr">repo:</span> <span class="string">git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span></span><br><span class="line">    <span class="attr">branch:</span> <span class="string">src</span></span><br><span class="line">    <span class="attr">extend_dirs:</span> <span class="string">/</span></span><br><span class="line">    <span class="attr">ignore_hidden:</span> <span class="literal">false</span></span><br><span class="line">    <span class="attr">ignore_pattern:</span></span><br><span class="line">        <span class="attr">public:</span> <span class="string">.</span></span><br></pre></td></tr></table></figure>
-
-<p>这样，在每次写完博客的时候时候使用 hexo d 命令就能将所有其他文件发布到 src 分支换电脑的时候就能通过 git 重新下载下来整个项目，然后本地切换到远端的 src 分支</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git checkout origin&#x2F;src</span><br></pre></td></tr></table></figure>
-
-<p>就能重新获得所有的源文件，就能重新 hexo d 发布对于每一个从 git 下载下来的项目或者主题，最好把每个的 .git 文件夹删掉，否则得通过 submodule 的方式来安装。</p>
-<p><a href="https://www.zhihu.com/question/21193762/answer/172097576" target="_blank" rel="noopener">发布于 2017-05-20</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Music Video 2019华晨宇火星演唱会（高清版）-【好想爱这个世界啊】</title>
-    <url>/2020/06/07/Music%20Video%202019%E5%8D%8E%E6%99%A8%E5%AE%87%E7%81%AB%E6%98%9F%E6%BC%94%E5%94%B1%E4%BC%9A%EF%BC%88%E9%AB%98%E6%B8%85%E7%89%88%EF%BC%89-%E3%80%90%E5%A5%BD%E6%83%B3%E7%88%B1%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E5%95%8A%E3%80%91/</url>
-    <content><![CDATA[<p>展开</p>
-<a id="more"></a>
-
-<h1 id="YouTube"><a href="#YouTube" class="headerlink" title="YouTube"></a>YouTube</h1><iframe width="560" height="315" src="https://www.youtube.com/embed/K_E5pzBrAKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-<h1 id="哔哩哔哩bilibili"><a href="#哔哩哔哩bilibili" class="headerlink" title="哔哩哔哩bilibili"></a>哔哩哔哩bilibili</h1><iframe src="//player.bilibili.com/player.html?aid=75965449&bvid=BV1gJ411S7Zg&cid=129947033&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      <tags>
-        <tag>Music Video</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>花に亡霊 —— ヨルシカ</title>
-    <url>/2020/06/07/Music%20Video%20%E8%8A%B1%E3%81%AB%E4%BA%A1%E9%9C%8A%20%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB/</url>
-    <content><![CDATA[<h1 id="Yesterday，noon"><a href="#Yesterday，noon" class="headerlink" title="Yesterday，noon"></a>Yesterday，noon</h1><a id="more"></a>
-
-<h2 id="Her"><a href="#Her" class="headerlink" title="Her"></a>Her</h2><iframe src="//player.bilibili.com/player.html?aid=285290998&cid=181798625&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      <tags>
-        <tag>Music Video</tag>
-      </tags>
   </entry>
 </search>
