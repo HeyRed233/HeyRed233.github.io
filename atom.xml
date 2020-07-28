@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HeyRed233&#39;s Blog</title>
+  
+  <subtitle>啦啦啦</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-07-28T15:42:32.303Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>HeyRed233</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>压博客文章</title>
+    <link href="http://yoursite.com/2020/07/28/%E5%8E%8B%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
+    <id>http://yoursite.com/2020/07/28/%E5%8E%8B%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</id>
+    <published>2020-07-28T15:41:04.000Z</published>
+    <updated>2020-07-28T15:42:32.303Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="压博" scheme="http://yoursite.com/tags/%E5%8E%8B%E5%8D%9A/"/>
+    
+  </entry>
+  
+</feed>
